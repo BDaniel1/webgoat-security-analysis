@@ -58,9 +58,9 @@ protected Comment parseXml(String xml, boolean securityEnabled)
 ```
 
 **Callers that pass `false` (all exploitable):**
-- [`SimpleXXE.java:54`](WebGoat/src/main/java/org/owasp/webgoat/lessons/xxe/SimpleXXE.java#L54) — `POST /xxe/simple`
-- [`BlindSendFileAssignment.java:79`](WebGoat/src/main/java/org/owasp/webgoat/lessons/xxe/BlindSendFileAssignment.java#L79) — `POST /xxe/blind`
-- [`ContentTypeAssignment.java:60`](WebGoat/src/main/java/org/owasp/webgoat/lessons/xxe/ContentTypeAssignment.java#L60) — `POST /xxe/content-type`
+- `SimpleXXE.java:54` — `POST /xxe/simple`
+- `BlindSendFileAssignment.java:79` — `POST /xxe/blind`
+- `ContentTypeAssignment.java:60` — `POST /xxe/content-type`
 
 **Exploit Scenario:**
 An attacker posts the following XML to any of the three endpoints:

@@ -38,7 +38,6 @@ This is not a raw scan dump. Findings are curated and analyzed for **realistic e
   - `sqlinjection`
   - `xxe`
   - `ssrf`
-  - `jwt`
   - `deserialization`
   - `pathtraversal`
 - Each folder was analyzed independently to keep findings focused and comparable  
@@ -104,7 +103,6 @@ Both outputs were aligned to a consistent structure:
    - sqlinjection
    - xxe
    - ssrf
-   - jwt
    - deserialization
    - pathtraversal
 
