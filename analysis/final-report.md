@@ -6,7 +6,7 @@ WebGoat, a deliberately insecure web application developed by OWASP, was selecte
 
 # Methodology
 
-Because of the size of the OWASP WebGoat repository, selected lesson folders were used to compare key vulnerability findings across tools in a manageable scope. The selected folders represent common vulnerability categories, including SQL injection, XML external entity (XXE), server-side request forgery (SSRF), JSON Web Token (JWT) weaknesses, insecure deserialization, and path traversal. Each folder was analyzed separately using both tools to allow for ease in comparison between the output from both tools.
+Because of the size of the OWASP WebGoat repository, selected lesson folders were used to compare key vulnerability findings across tools in a manageable scope. The selected folders represent common vulnerability categories, including SQL injection, XML external entity (XXE), server-side request forgery (SSRF), insecure deserialization, and path traversal. Each folder was analyzed separately using both tools to allow for ease in comparison between the output from both tools.
 
 For static code analysis, VCG was used to scan each directory individually. The resulting output was generated in XML format, then parsed and converted into a more readable form for inclusion in this repository with Claude Code. This step allowed for an easier comparison between the output of the VCG and Claude Code scans. However, Claude Code did add some interpretations of the original scans in the Markdown reports it generated, so original VCG scans were re-run and reviewed during the comparison phase to ensure the accuracy and prevent distortion of the underlying results.
 
