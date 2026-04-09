@@ -17,7 +17,7 @@ The goal is not just to find vulnerabilities, but to compare:
 - **False positive rates**
 - **Clarity and usefulness of output**
 
-This is not a raw scan dump. Findings are curated and analyzed for **realistic exploitability and signal quality**.
+**[View Final Report](/analysis/final-report.md)** — Side-by-side comparison of VCG vs Claude findings, false positive analysis, and conclusions.
 
 ---
 
